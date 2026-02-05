@@ -119,4 +119,5 @@ results_df = pd.DataFrame(results)
 print('\n')
 print("Оценка параметров распределений:\n")
 print(results_df[['Распределение', 'Параметр', 'Истинное значение', 'Нижняя граница ДИ', 'Верхняя граница ДИ', 'Scipy Stats ДИ']].to_string(index=False))
+
 print('\n')
