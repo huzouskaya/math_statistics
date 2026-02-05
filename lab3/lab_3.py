@@ -104,4 +104,5 @@ def makePlot(label, data):
 
 # Генерация графиков для всех выборок
 for label, data in samples_.items():
+
     makePlot(label, data)
